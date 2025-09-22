@@ -69,7 +69,7 @@ const showWinner = (userWin, user, comp) => {
     }
     else {
         console.log("Computer wins");
-        msg.innerText = "Computer wins! " + comp + " beats your " + user;
+        msg.innerText = "Computer wins! " + comp + " beats " + user;
         compScore++;
         compScorePara.innerText = compScore;
         msg.style.backgroundColor = "red";
