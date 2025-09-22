@@ -112,3 +112,395 @@ img {
 }
 
 
+/* Tablet Styles */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .choices {
+        gap: 2rem;
+        margin: 20px auto;
+        flex-wrap: wrap;
+    }
+    
+    .choice {
+        height: 150px;
+        width: 150px;
+    }
+    
+    img {
+        height: 110px;
+        width: 110px;
+    }
+    
+    .score-window {
+        gap: 4rem;
+        font-size: 1.8rem;
+        margin: 30px auto;
+    }
+    
+    #user-score,
+    #comp-score {
+        font-size: 3rem;
+    }
+    
+    #msg {
+        font-size: 1.5rem;
+    }
+    
+    .buttons {
+        position: relative;
+        justify-content: center;
+        margin: 20px auto;
+        max-width: 400px;
+    }
+    
+    .buttons button {
+        font-size: 16px;
+        padding: 15px 25px;
+        flex: 1;
+        min-width: 120px;
+    }
+    
+    .theme {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin-bottom: 10px;
+    }
+    
+    .restart {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin-top: 10px;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        margin: 10px auto 20px;
+        width: 95%;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.8rem;
+        position: static;
+        left: auto;
+        right: auto;
+    }
+    
+    .choices {
+        gap: 1rem;
+        margin: 20px auto;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+    
+    img {
+        height: 80px;
+        width: 80px;
+    }
+    
+    .score-window {
+        gap: 3rem;
+        font-size: 1.5rem;
+        margin: 30px auto;
+        max-width: 400px;
+    }
+    
+    .score {
+        padding: 15px;
+        min-width: 80px;
+    }
+    
+    #user-score,
+    #comp-score {
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+    }
+    
+    .msg-window {
+        margin: 30px auto;
+        max-width: 90%;
+    }
+    
+    #msg {
+        font-size: 1.2rem;
+        padding: 15px 20px;
+        max-width: 100%;
+        word-wrap: break-word;
+    }
+    
+    .buttons {
+        position: relative;
+        justify-content: center;
+        margin: 20px auto;
+        max-width: 300px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .buttons button {
+        padding: 12px 20px;
+        border-radius: 8px;
+        flex: 1;
+        min-width: 100px;
+    }
+    
+    .theme {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin-bottom: 5px;
+    }
+    
+    .restart {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin-top: 5px;
+    }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 480px) {
+    h1 {
+        height: 3.5rem;
+        line-height: 3.5rem;
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+    
+    .choices {
+        gap: 0.5rem;
+        margin: 15px auto;
+    }
+    
+    .choice {
+        height: 100px;
+        width: 100px;
+    }
+    
+    img {
+        height: 70px;
+        width: 70px;
+    }
+    
+    .score-window {
+        gap: 2rem;
+        font-size: 1.2rem;
+        margin: 20px auto;
+    }
+    
+    #user-score,
+    #comp-score {
+        font-size: 2rem;
+    }
+    
+    .score {
+        padding: 10px;
+        min-width: 70px;
+    }
+    
+    #msg {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+    
+    .msg-window {
+        margin: 20px auto;
+    }
+    
+    .buttons {
+        max-width: 200px;
+        gap: 8px;
+    }
+    
+    .buttons button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+}
+
+/* Very small mobile devices */
+@media screen and (max-width: 320px) {
+    .choices {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .choice {
+        height: 90px;
+        width: 90px;
+    }
+    
+    img {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .score-window {
+        gap: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        height: 5rem;
+        line-height: 5rem;
+        font-size: 2.2rem;
+    }
+    
+    .choice {
+        height: 150px;
+        width: 150px;
+    }
+    
+    img {
+        height: 110px;
+        width: 110px;
+    }
+    
+    .choices {
+        gap: 2rem;
+    }
+    
+    .score-window {
+        gap: 4rem;
+        font-size: 1.8rem;
+    }
+    
+    #user-score,
+    #comp-score {
+        font-size: 3rem;
+    }
+    
+    #msg {
+        font-size: 1.5rem;
+    }
+    
+    .buttons {
+        max-width: 400px;
+    }
+    
+    .buttons button {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+    
+    h1 {
+        height: 3.5rem;
+        line-height: 3.5rem;
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+    
+    .choices {
+        gap: 0.5rem;
+        margin: 15px auto;
+    }
+    
+    .choice {
+        height: 100px;
+        width: 100px;
+    }
+    
+    img {
+        height: 70px;
+        width: 70px;
+    }
+    
+    .score-window {
+        gap: 2rem;
+        font-size: 1.2rem;
+        margin: 20px auto;
+    }
+    
+    #user-score,
+    #comp-score {
+        font-size: 2rem;
+    }
+    
+    .score {
+        padding: 10px;
+        min-width: 70px;
+    }
+    
+    #msg {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+    
+    .msg-window {
+        margin: 20px auto;
+    }
+    
+    .buttons {
+        flex-direction: column;
+        max-width: 200px;
+        gap: 8px;
+    }
+    
+    .buttons button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    
+    .theme {
+        margin-bottom: 5px;
+    }
+    
+    .restart {
+        margin-top: 5px;
+    }
+}
+
+/* Very small mobile devices */
+@media screen and (max-width: 320px) {
+    .choices {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .choice {
+        height: 90px;
+        width: 90px;
+    }
+    
+    img {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .score-window {
+        gap: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
